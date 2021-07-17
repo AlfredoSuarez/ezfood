@@ -1,0 +1,76 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  width: 100%;
+  align-items: center;
+  height: 12vh;
+}
+
+.logo img {
+  opacity: 1;
+}
+
+a {
+  color: red;
+}
+.home_nav {
+  margin-left: 47%;
+  float: right;
+  justify-content: flex-end;
+}
+
+#contact_nav {
+  font-size: 26px;
+  justify-content: space-evenly;
+}
+
+nav ul {
+  justify-content: space-evenly;
+  align-content: flex-end;
+  justify-items: flex-end;
+}
+
+nav ul li {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: auto;
+  display: inline-block;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main {
+  background-image: url("https://st.depositphotos.com/1028758/1618/v/950/depositphotos_16180971-stock-illustration-recreation-travel-vacation-icons-set.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 15%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  opacity: 0.35;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  width: 100%;
+  justify-content: space-evenly;
+  align-content: flex-end;
+}
